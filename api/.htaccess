@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^([A-Za-z0-9-]+)$ api.php?plate=$1 [NC]
+
+RewriteRule ^ api.php
